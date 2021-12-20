@@ -7,6 +7,13 @@ spacer : put to right end and 85% width
 recoTopics spaces
 recoTopics positions
 
+
+followDescription check description size
+
+
+
+MAKE ALL RESPONSIVE
+
 */
 
 #spacer {
@@ -21,6 +28,16 @@ recoTopics positions
   border-radius: 50px;
   border-color: rgb(58, 55, 55);
   border-width: 1px;
+}
+
+.followDescription {
+  font-size: 70%;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 
 .bgCustomWhite {
