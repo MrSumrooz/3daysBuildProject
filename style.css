@@ -5,6 +5,7 @@ spacer : put to right end and 85% width
 
 
 recoTopics spaces
+recoTopics positions
 
 */
 
@@ -20,4 +21,14 @@ recoTopics spaces
   border-radius: 50px;
   border-color: rgb(58, 55, 55);
   border-width: 1px;
+}
+
+.bgCustomWhite {
+  background: white !important;
+}
+
+.asdasd {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
 }
