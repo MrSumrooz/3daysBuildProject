@@ -1,0 +1,86 @@
+#MianBody{
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.firstUl li{
+display: inline-block;
+color: #757575;
+font-size: large;
+padding: 5px;
+}
+.firstP p{
+    color: #757575;
+    font-size: large;
+    
+}
+
+.firstUl li:hover{
+    color: black;
+}
+
+.Skills_Area{
+    color: #757575;
+    border: 0.5px solid #c0bfbf;
+}
+.Skills_Area:hover{
+
+    color: black;
+}
+#publicationh6{
+    letter-spacing: 0.15rem;
+    color: #757575;
+}
+
+.img_Stories{
+
+    border-radius: 50%;
+}
+
+.story span{
+
+    color: #1C8A1A;
+
+}
+#times{
+    color: #757575;
+}
+
+.bottom_icons span{
+color: #757575;
+font-size: large;
+font-weight: 600;
+
+}
+
+.Jsbox p{
+    color: #757575;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+#followBtn{
+
+    color: #198917;
+    border: 2px solid #198917;
+    background: transparent;
+    padding: 8px 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 20px;
+
+
+}
+
+.bi{
+
+    font-size: x-large;
+}
+.jsDaily{
+    border-radius: 50%;
+}
