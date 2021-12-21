@@ -2,6 +2,7 @@
 CAREFULL WHEN MARGIN TAKE TIME TO  KNOW HOW TO DISPLAY CORRECTLY
 margin right FOR ALL
 spacer : put to right end and 85% width
+twitter button -> smaller
 
 
 recoTopics spaces
@@ -10,10 +11,17 @@ recoTopics positions
 
 followDescription check description size
 
+MAKE ALL RESPONSIVE--> less than 904px HIDE ALL
+
+comment a little bit
 
 
-MAKE ALL RESPONSIVE
+on comments B[0] should be smaller
 
+commentText should be bolder
+
+span with date, put some mt or pt ( dont work right now)
+star, vertical align center
 */
 
 #spacer {
@@ -23,7 +31,6 @@ MAKE ALL RESPONSIVE
 }
 
 #connectToTwitter {
-  display: inline-block;
   border-style: solid;
   border-radius: 50px;
   border-color: rgb(58, 55, 55);
@@ -48,4 +55,22 @@ MAKE ALL RESPONSIVE
   height: 50px;
   width: 50px;
   object-fit: cover;
+}
+
+.commentAvatar {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 30% !important;
+}
+
+.commentText {
+  /* font-weight: bolder; not  enough */
+}
+
+.commentAvatarType2 {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50% !important;
 }
