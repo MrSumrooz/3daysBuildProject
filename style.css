@@ -1,38 +1,37 @@
 /* 
-spacer : put to right end and 85% width
-twitter button -> smaller
-
-
-recoTopics spaces
-recoTopics positions
-
-
-followDescription check description size
-
-MAKE ALL RESPONSIVE--> less than 904px HIDE ALL
-
-comment a little bit
-
-
-on comments B[0] should be smaller
+text center
+twitter button could be better
 
 commentText should be bolder
 
-
-star, vertical align center
 */
+@media (max-width: 904px) {
+  #hiddenOn904px {
+    display: none;
+  }
+}
 
 #spacer {
   background: rgba(146, 141, 141, 0.137);
   height: 2px;
-  width: 75%;
+  width: 90%;
 }
 
 #connectToTwitter {
   border-style: solid;
   border-radius: 50px;
-  border-color: rgb(58, 55, 55);
+  border-color: rgb(104, 96, 96);
   border-width: 1px;
+  width: 70%;
+}
+
+#connectToTwitter:hover {
+  border-color: black;
+  cursor: pointer;
+}
+#connectToTwitter span {
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
 }
 
 .followDescription {
@@ -49,7 +48,11 @@ star, vertical align center
   background: white !important;
 }
 
-.profileToFollow {
+.profileClickToFollow:hover {
+  cursor: pointer;
+}
+
+.imgProfileToFollow {
   height: 50px;
   width: 50px;
   object-fit: cover;
